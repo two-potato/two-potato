@@ -12,6 +12,9 @@
   <a href="https://leetcode.com/yourprofile"><img src="https://img.shields.io/static/v1?style=flat-square&logo=leetcode&label=&message=LeetCode&color=FFA116&logoColor=black" alt="LeetCode"></a>
 </p>
 
+⚙️ My Stack Toolbox
+<div align="center"> <!-- Python Ecosystem --> <img src="https://skillicons.dev/icons?i=py,django" alt="Python Django" /> <img src="https://skillicons.dev/icons?i=flask" alt="Flask" /> <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" /> <!-- DevOps & Infrastructure --> <img src="https://skillicons.dev/icons?i=docker,kubernetes" alt="Docker Kubernetes" /> <img src="https://skillicons.dev/icons?i=nginx" alt="NGINX" /> <img src="https://skillicons.dev/icons?i=prometheus,grafana" alt="Prometheus Grafana" /> <!-- Databases & Message Brokers --> <img src="https://skillicons.dev/icons?i=postgres,redis" alt="PostgreSQL Redis" /> <img src="https://skillicons.dev/icons?i=rabbitmq" alt="RabbitMQ" /> <img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite" /> <!-- Other Tools --> <img src="https://skillicons.dev/icons?i=linux,git,github" alt="Linux Git GitHub" /> <img src="https://skillicons.dev/icons?i=celery" alt="Celery" /> <img src="https://skillicons.dev/icons?i=ai" alt="AI" /> </div>
+
 ---
 
 ### 🛠️ Технологический стек
