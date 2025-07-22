@@ -1,66 +1,64 @@
-<h1 align="center">Привет, я two-potato! 👋</h1>
-<h3 align="center">Python Backend Developer | DevOps Enthusiast</h3>
+<h1 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=38F776&center=true&vCenter=true&width=500&height=70&lines=Привет,+я+two-potato!+👋" alt="Анимированное приветствие">
+</h1>
+
+<h3 align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=4000&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&height=40&lines=Python+Backend+Developer;DevOps+Enthusiast;Open+Source+Contributor" alt="Анимированные роли">
+</h3>
 
 <p align="center">
-  <a href="https://t.me/your_telegram" target="blank"><img align="center" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="telegram"/></a>
-  <a href="mailto:your@email.com" target="blank"><img align="center" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="email"/></a>
+  <a href="https://t.me/your_telegram"><img src="https://img.shields.io/static/v1?style=flat-square&logo=telegram&label=&message=Telegram&color=26A5E4&logoColor=white" alt="Telegram"></a>
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/static/v1?style=flat-square&logo=gmail&label=&message=Email&color=EA4335&logoColor=white" alt="Email"></a>
+  <a href="https://leetcode.com/yourprofile"><img src="https://img.shields.io/static/v1?style=flat-square&logo=leetcode&label=&message=LeetCode&color=FFA116&logoColor=black" alt="LeetCode"></a>
 </p>
 
 ---
 
-### 🔧 Мой технологический стек:
+### 🛠️ Технологический стек
 
-#### 🐍 Python Ecosystem:
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="python">
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="django">
-  <img src="https://img.shields.io/badge/DRF-ff1709?style=for-the-badge&logo=django&logoColor=white" alt="drf">
-  <img src="https://img.shields.io/badge/Aiogram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="aiogram">
-  <img src="https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white" alt="celery">
-</p>
+#### **Backend Development**
+<div align="left">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=python&label=Python&message=3.11&color=3776AB&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=django&label=Django&message=4.2&color=092E20&logoColor=white" alt="Django">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=django&label=DRF&message=REST&color=A30000&logoColor=white" alt="DRF">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=aiogram&label=Aiogram&message=3.0&color=2CA5E0&logoColor=white" alt="Aiogram">
+</div>
 
-#### 🐳 DevOps & Monitoring:
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="docker">
-  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="docker-compose">
-  <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="nginx">
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white" alt="grafana">
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" alt="prometheus">
-  <img src="https://img.shields.io/badge/Loki-F05032?style=for-the-badge&logo=grafana&logoColor=white" alt="loki">
-</p>
+#### **DevOps & Infrastructure**
+<div align="left">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=docker&label=Docker&message=Compose&color=2496ED&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=nginx&label=NGINX&message=Reverse+Proxy&color=009639&logoColor=white" alt="NGINX">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=prometheus&label=Prometheus&message=Monitoring&color=E6522C&logoColor=white" alt="Prometheus">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=grafana&label=Grafana&message=Dashboards&color=F46800&logoColor=white" alt="Grafana">
+</div>
 
-#### 🗃️ Databases & Cache:
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="postgresql">
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="sqlite">
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="redis">
-</p>
-
-#### 🔧 Other Tools:
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="git">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="linux">
-</p>
+#### **Databases & Message Brokers**
+<div align="left">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=postgresql&label=PostgreSQL&message=15&color=4169E1&logoColor=white" alt="PostgreSQL">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=redis&label=Redis&message=Cache&color=DC382D&logoColor=white" alt="Redis">
+  <img src="https://img.shields.io/static/v1?style=flat-square&logo=celery&label=Celery&message=Worker&color=37814A&logoColor=white" alt="Celery">
+</div>
 
 ---
 
-### 📊 GitHub статистика:
+### 📊 GitHub Analytics
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=two-potato&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="Stats">
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=two-potato&theme=radical&hide_border=true&background=0d1117" alt="Streak">
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=two-potato&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Langs">
+</div>
+
+---
+
+### 🔥 Мои принципы
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=two-potato&show_icons=true&theme=radical" alt="stats">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=two-potato&theme=radical" alt="streak">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=two-potato&layout=compact&theme=radical" alt="top-langs">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=38F776&center=true&vCenter=true&width=500&height=40&lines=Код+должен+быть+читаемым;Автоматизируй+все+рутинные+задачи;Метрики+>+догадки;Логирование+—+обязательно" alt="Анимированные принципы">
 </p>
 
 ---
 
-### 💡 Мои принципы:
-- 🚀 Перформанс и масштабируемость
-- 🔍 Observability во всех проектах
-- 📊 Метрики > догадки
-- 🤖 Автоматизируй всё
-
----
-
-### 📫 Как связаться:
-- Telegram: [@your_username](https://t.me/your_username)
-- Email: your@email.com
+### 📫 Контакты
+<p align="center">
+  <a href="https://t.me/your_username"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=telegram&label=&message=Telegram&color=26A5E4&logoColor=white" alt="Telegram"></a>
+  <a href="mailto:your@email.com"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=gmail&label=&message=Email&color=EA4335&logoColor=white" alt="Email"></a>
+</p>
