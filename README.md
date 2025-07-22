@@ -33,6 +33,6 @@
 
 ### 📫 Контакты
 <p align="center">
-  <a href="https://t.me/your_username"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=telegram&label=&message=Telegram&color=26A5E4&logoColor=white" alt="Telegram"></a>
-  <a href="mailto:your@email.com"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=gmail&label=&message=Email&color=EA4335&logoColor=white" alt="Email"></a>
+  <a href="https://t.me/good_time_man"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=telegram&label=&message=Telegram&color=26A5E4&logoColor=white" alt="Telegram"></a>
+  <a href="mailto:advertiseman.spb@gmail.com"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=gmail&label=&message=Email&color=EA4335&logoColor=white" alt="Email"></a>
 </p>
