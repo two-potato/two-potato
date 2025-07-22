@@ -14,9 +14,6 @@
 
 ---
 
-
----
-
 ### 📊 GitHub Analytics
 <div align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=two-potato&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="Stats">
