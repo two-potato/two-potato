@@ -28,8 +28,6 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=38F776&center=true&vCenter=true&width=500&height=40&lines=Код+должен+быть+читаемым;Автоматизируй+все+рутинные+задачи;Метрики+>+догадки;Логирование+—+обязательно" alt="Анимированные принципы">
 </p>
 
----
-
 ### 📫 Контакты
 <p align="center">
   <a href="https://t.me/your_username"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=telegram&label=&message=Telegram&color=26A5E4&logoColor=white" alt="Telegram"></a>
