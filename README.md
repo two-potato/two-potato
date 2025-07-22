@@ -23,10 +23,13 @@
 
 ---
 
-### 🔥 Мои принципы
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=1000&color=38F776&center=true&vCenter=true&width=500&height=40&lines=Код+должен+быть+читаемым;Автоматизируй+все+рутинные+задачи;Метрики+>+догадки;Логирование+—+обязательно" alt="Анимированные принципы">
-</p>
+### 💡 Мои принципы:
+- 🚀 Перформанс и масштабируемость
+- 🔍 Observability во всех проектах
+- 📊 Метрики > догадки
+- 🤖 Автоматизируй всё
+
+---
 
 ### 📫 Контакты
 <p align="center">
