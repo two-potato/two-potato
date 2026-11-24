@@ -14,7 +14,7 @@ jobs:
       fail-fast: false
       max-parallel: 4
       matrix:
-        repository: [two-potato, potato_harness, opencode-entero-assistant, servio, potato_metrics, storefront-ui-demo, kbn_staff_bot, kbn_stock_bot, prj_spy, gamble, e_rest_api, backend_test_homework, hw03_forms, actions_test, ghtest, bg_store_twa]
+        repository: [two-potato, opencode-entero-assistant, servio, potato_metrics, storefront-ui-demo, kbn_staff_bot, kbn_stock_bot, prj_spy, gamble, e_rest_api, backend_test_homework, hw03_forms, actions_test, ghtest, bg_store_twa]
     steps:
       - name: Scan reachable Git history (aggregate categories only)
         env:
@@ -80,7 +80,7 @@ jobs:
       fail-fast: false
       max-parallel: 4
       matrix:
-        repository: [potato_harness, servio, kbn_stock_bot, prj_spy, hw03_forms, actions_test, kbn_staff_bot]
+        repository: [servio, kbn_stock_bot, prj_spy, hw03_forms, actions_test, kbn_staff_bot]
     steps:
       - name: Scan default-branch snapshot (aggregate categories only)
         env:

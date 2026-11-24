@@ -15,3 +15,7 @@ A successful scan does not prove the absence of secrets. If any job fails becaus
 5. Repeat the scan after remediation; keep a private record of unresolved findings. A previously identified token must be revoked even if a scanner misses it.
 
 The additional snapshot job scans only the current default branch of the six flagged repositories and the previously identified Telegram bot repository. The purpose is to distinguish current-tree findings from history-only findings, not to certify other branches or validate credentials. Snapshot findings are reported with the same fixed categories and no locations or values.
+
+## Scope update
+
+Potato Harness is explicitly excluded from subsequent scans at the owner's request. Earlier audit results reflect the earlier scope. The current matrix contains 15 public repositories and the snapshot matrix contains six selected repositories. No Harness changes are authorized by this workflow.
