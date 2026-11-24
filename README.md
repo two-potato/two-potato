@@ -11,11 +11,11 @@ Open to remote and project-based opportunities in AI automation, LLM integration
 | Project | What to inspect | Status |
 | --- | --- | --- |
 | [Potato Harness](https://github.com/two-potato/potato_harness) | [Runnable demo and evidence](https://github.com/two-potato/potato_harness/blob/main/docs/PORTFOLIO.md): permission gates, Git-pinned verification, state management and negative tests | Experimental runtime; live isolated E2E not yet confirmed |
-| [OpenCode Entero Assistant](https://github.com/two-potato/opencode-entero-assistant) | Read-only procurement workflow, offline CSV/XLSX intake and export, local browser workbench, batch review, benchmark scoring and experimental bounded OpenCode execution; [85 passing tests on this revision](https://github.com/two-potato/opencode-entero-assistant/actions/runs/45383357002) | Prototype; 50-case synthetic benchmark prepared, live business impact not measured |
+| [OpenCode Entero Assistant](https://github.com/two-potato/opencode-entero-assistant) | Read-only procurement workflow, offline CSV/XLSX intake and export, local browser workbench, batch review, benchmark scoring and experimental bounded OpenCode execution, PDF review export and Chromium E2E; [90 passing tests on this revision](https://github.com/two-potato/opencode-entero-assistant/actions/runs/45384509005) | Prototype; 50-case synthetic benchmark prepared, live business impact not measured |
 | [Servio](https://github.com/two-potato/servio) | E-commerce backend, async processing, deployment and observability | Development project |
 | [24sparts — public engineering case](case-studies/24sparts.md) | Spare-parts marketplace and custom request architecture | Private implementation; public high-level case only |
 
-Other demos: [Potato Metrics](https://github.com/two-potato/potato_metrics/tree/master/demo) — [CI-verified local HTTP probing, alert firing and recovery](https://github.com/two-potato/potato_metrics/actions/runs/45377212967).
+Other demos: [Potato Metrics](https://github.com/two-potato/potato_metrics/tree/master/demo) — [CI-verified local HTTP probing, alert firing and recovery, Grafana dashboard and synthetic Loki log ingestion](https://github.com/two-potato/potato_metrics/actions/runs/45384442294).
 
 [Storefront UI](https://github.com/two-potato/storefront-ui-demo) — standalone catalog and cart interactions in HTML/CSS/JavaScript.
 
