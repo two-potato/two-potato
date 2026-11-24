@@ -11,11 +11,13 @@ Open to remote and project-based opportunities in AI automation, LLM integration
 | Project | What to inspect | Status |
 | --- | --- | --- |
 | [Potato Harness](https://github.com/two-potato/potato_harness) | [Runnable demo and evidence](https://github.com/two-potato/potato_harness/blob/main/docs/PORTFOLIO.md): permission gates, Git-pinned verification, state management and negative tests | Experimental runtime; live isolated E2E not yet confirmed |
-| [OpenCode Entero Assistant](https://github.com/two-potato/opencode-entero-assistant) | Read-only procurement workflow, verified-offer ranking and CSV specification intake; [49 passing tests on this revision](https://github.com/two-potato/opencode-entero-assistant/actions/runs/45370190141) | Prototype; 50-case synthetic benchmark prepared, live business impact not measured |
+| [OpenCode Entero Assistant](https://github.com/two-potato/opencode-entero-assistant) | Read-only procurement workflow, offline CSV/XLSX intake and export, local browser workbench; [69 passing tests on this revision](https://github.com/two-potato/opencode-entero-assistant/actions/runs/45379527212) | Prototype; 50-case synthetic benchmark prepared, live business impact not measured |
 | [Servio](https://github.com/two-potato/servio) | E-commerce backend, async processing, deployment and observability | Development project |
 | [24sparts — public engineering case](case-studies/24sparts.md) | Spare-parts marketplace and custom request architecture | Private implementation; public high-level case only |
 
-Other demo: [Storefront UI](https://github.com/two-potato/storefront-ui-demo) — standalone catalog and cart interactions in HTML/CSS/JavaScript.
+Other demos: [Potato Metrics](https://github.com/two-potato/potato_metrics/tree/master/demo) — [CI-verified local HTTP probing, alert firing and recovery](https://github.com/two-potato/potato_metrics/actions/runs/45377212967).
+
+[Storefront UI](https://github.com/two-potato/storefront-ui-demo) — standalone catalog and cart interactions in HTML/CSS/JavaScript.
 
 ## Technical focus
 
