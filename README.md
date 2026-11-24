@@ -13,6 +13,7 @@ Open to remote and project-based opportunities in AI automation, LLM integration
 | [Potato Harness](https://github.com/two-potato/potato_harness) | [Runnable demo and evidence](https://github.com/two-potato/potato_harness/blob/main/docs/PORTFOLIO.md): permission gates, Git-pinned verification, state management and negative tests | Experimental runtime; live isolated E2E not yet confirmed |
 | [OpenCode Entero Assistant](https://github.com/two-potato/opencode-entero-assistant) | Read-only equipment procurement workflow: requirements, research, source verification and deterministic ranking | Prototype; business impact not yet measured |
 | [Servio](https://github.com/two-potato/servio) | E-commerce backend, async processing, deployment and observability | Development project |
+| [24sparts — public engineering case](case-studies/24sparts.md) | Spare-parts marketplace and custom request architecture | Private implementation; public high-level case only |
 
 ## Technical focus
 
