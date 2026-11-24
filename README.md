@@ -1,38 +1,35 @@
-<!-- Анимированный заголовок -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=00F7FF&center=true&vCenter=true&width=420&lines=Hi%2C+I'm+two-potato.;Backend+Engineer+%7C+DevOps+Enthusiastst.;Code+with+intention" alt="Typing SVG" />
-</p>
+# Sergey Nesterov | Applied AI & Automation
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=two-potato&color=blue" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/two-potato?label=Followers&style=social" alt="GitHub Followers"/>
-  <img src="https://img.shields.io/github/stars/two-potato?label=Stars&style=social" alt="GitHub Stars"/>
-</p>
+I build AI-assisted workflows, agent verification systems and backend applications for practical business problems.
 
-⚙️ My Stack Toolbox
-<div align="center"> <!-- Python Ecosystem --> <img src="https://skillicons.dev/icons?i=py,django" alt="Python Django" /> <img src="https://skillicons.dev/icons?i=flask" alt="Flask" /> <img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" /> <!-- DevOps & Infrastructure --> <img src="https://skillicons.dev/icons?i=docker,kubernetes" alt="Docker Kubernetes" /> <img src="https://skillicons.dev/icons?i=nginx" alt="NGINX" /> <img src="https://skillicons.dev/icons?i=prometheus,grafana" alt="Prometheus Grafana" /> <!-- Databases & Message Brokers --> <img src="https://skillicons.dev/icons?i=postgres,redis" alt="PostgreSQL Redis" /> <img src="https://skillicons.dev/icons?i=rabbitmq" alt="RabbitMQ" /> <img src="https://skillicons.dev/icons?i=sqlite" alt="SQLite" /> <!-- Other Tools --> <img src="https://skillicons.dev/icons?i=linux,git,github" alt="Linux Git GitHub" /> <img src="https://skillicons.dev/icons?i=celery" alt="Celery" /> <img src="https://skillicons.dev/icons?i=ai" alt="AI" /> </div>
+My background combines commercial operations and professional equipment selection with software development. I focus on reproducibility, explicit trust boundaries, deterministic validation and measurable results.
 
----
+Open to remote and project-based opportunities in AI automation, LLM integration and applied AI.
 
-### 📊 GitHub Analytics
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=two-potato&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117" alt="Stats">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=two-potato&theme=radical&hide_border=true&background=0d1117" alt="Streak">
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=two-potato&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Langs">
-</div>
+## Featured projects
 
----
+| Project | What to inspect | Status |
+| --- | --- | --- |
+| [Potato Harness](https://github.com/two-potato/potato_harness) | [Runnable demo and evidence](https://github.com/two-potato/potato_harness/blob/main/docs/PORTFOLIO.md): permission gates, Git-pinned verification, state management and negative tests | Experimental runtime; live isolated E2E not yet confirmed |
+| [OpenCode Entero Assistant](https://github.com/two-potato/opencode-entero-assistant) | Read-only equipment procurement workflow: requirements, research, source verification and deterministic ranking | Prototype; business impact not yet measured |
+| [Servio](https://github.com/two-potato/servio) | E-commerce backend, async processing, deployment and observability | Development project |
 
-### 💡 Мои принципы:
-- 🚀 Перформанс и масштабируемость
-- 🔍 Observability во всех проектах
-- 📊 Метрики > догадки
-- 🤖 Автоматизируй всё
+## Technical focus
 
----
+- LLM integration, agent workflows, evidence-based evaluation and guardrails
+- Python, Django, Django REST Framework, JavaScript
+- PostgreSQL, Redis, SQLite, Celery
+- Docker, Linux, Nginx, Git, GitHub Actions
+- Prometheus, Grafana and Loki
 
-### 📫 Контакты
-<p align="center">
-  <a href="https://t.me/good_time_man"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=telegram&label=&message=Telegram&color=26A5E4&logoColor=white" alt="Telegram"></a>
-  <a href="mailto:advertiseman.spb@gmail.com"><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=gmail&label=&message=Email&color=EA4335&logoColor=white" alt="Email"></a>
-</p>
+I use AI-assisted development and distinguish implemented functionality, reproducible test evidence and planned capabilities. I value clear failure modes over claims that everything is production-ready.
+
+## О себе
+
+Разрабатываю инструменты прикладного ИИ и автоматизации бизнес-процессов. Особенно интересуют подбор оборудования, обработка спецификаций, поиск и проверка данных, интеграция LLM и управляемые агентные системы.
+
+Рассматриваю удалённую и проектную работу.
+
+## Contact
+
+[Telegram](https://t.me/good_time_man) · [Email](mailto:advertiseman.spb@gmail.com)
