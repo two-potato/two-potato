@@ -1,0 +1,47 @@
+name: Public portfolio history audit
+on:
+  pull_request:
+    branches: [main]
+    paths: ['.github/workflows/history-audit.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  scan:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        repository: [two-potato, potato_harness, opencode-entero-assistant, servio, potato_metrics, storefront-ui-demo, kbn_staff_bot, kbn_stock_bot, prj_spy, gamble, e_rest_api, backend_test_homework, hw03_forms, actions_test, ghtest, bg_store_twa]
+    steps:
+      - name: Scan reachable Git history (status only)
+        env:
+          REPOSITORY: ${{ matrix.repository }}
+          GIT_TERMINAL_PROMPT: '0'
+        run: |
+          set -eu
+          repo="$(mktemp -d)"
+          trap 'rm -rf "$repo"' EXIT
+          if ! git clone --mirror --quiet "https://github.com/two-potato/$REPOSITORY.git" "$repo/repo" 2>/dev/null; then
+            echo "Scan unavailable: repository could not be cloned."
+            exit 1
+          fi
+          if [ -z "$(git -C "$repo/repo" for-each-ref --count=1 --format='%(refname)')" ]; then
+            echo "No reachable refs. Not scanned."
+            exit 0
+          fi
+          docker pull ghcr.io/gitleaks/gitleaks:v8.24.2 >/dev/null
+          set +e
+          docker run --rm --network none --read-only --tmpfs /tmp \
+            -e GIT_CONFIG_COUNT=1 -e GIT_CONFIG_KEY_0=safe.directory -e GIT_CONFIG_VALUE_0=/scan \
+            -v "$repo/repo:/scan:ro" ghcr.io/gitleaks/gitleaks:v8.24.2 \
+            git --redact=100 --log-opts=--all --exit-code=42 /scan >/dev/null 2>&1
+          status=$?
+          set -e
+          case "$status" in
+            0) echo "No findings reported by this scan." ;;
+            42) echo "Potential secret findings. Review privately; do not print or upload values."; exit 42 ;;
+            *) echo "Scanner failed; no security conclusion."; exit 1 ;;
+          esac
