@@ -72,3 +72,71 @@ jobs:
 
             *) echo "Scanner failed; no security conclusion."; exit 1 ;;
           esac
+
+  snapshot:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        repository: [potato_harness, servio, kbn_stock_bot, prj_spy, hw03_forms, actions_test, kbn_staff_bot]
+    steps:
+      - name: Scan default-branch snapshot (aggregate categories only)
+        env:
+          REPOSITORY: ${{ matrix.repository }}
+          GIT_TERMINAL_PROMPT: '0'
+        run: |
+          set -eu
+          repo="$(mktemp -d)"
+          trap 'rm -rf "$repo"' EXIT
+          if ! git clone --depth=1 --quiet "https://github.com/two-potato/$REPOSITORY.git" "$repo/repo" 2>/dev/null; then
+            echo "Scan unavailable: repository could not be cloned."
+            exit 1
+          fi
+          if [ -z "$(git -C "$repo/repo" rev-parse --verify HEAD 2>/dev/null)" ]; then
+            echo "No reachable refs. Not scanned."
+            exit 0
+          fi
+          mkdir "$repo/snapshot"
+          git -C "$repo/repo" archive HEAD | tar -x -C "$repo/snapshot"
+          docker pull ghcr.io/gitleaks/gitleaks:v8.24.2 >/dev/null
+          mkdir -m 700 "$repo/results"
+          set +e
+          docker run --rm --network none --read-only --tmpfs /tmp \
+            -e GIT_CONFIG_COUNT=1 -e GIT_CONFIG_KEY_0=safe.directory -e GIT_CONFIG_VALUE_0=/scan \
+            -v "$repo/snapshot:/scan:ro" -v "$repo/results:/results" ghcr.io/gitleaks/gitleaks:v8.24.2 \
+            dir --redact=100 --exit-code=42 --report-format=json --report-path=/results/report.json /scan >/dev/null 2>&1
+          status=$?
+          set -e
+          case "$status" in
+            0) echo "No findings reported by this scan." ;;
+            42)
+              echo "Potential secret findings. Review privately."
+              python3 - "$repo/results/report.json" <<'PY'
+          import collections, json, sys
+          with open(sys.argv[1], encoding="utf-8") as file:
+              report = json.load(file)
+          buckets = collections.Counter()
+          for item in report:
+              rule = str(item.get("RuleID", "")).lower()
+              if any(x in rule for x in ("private-key", "ssh-key", "pem")):
+                  category = "private-key pattern"
+              elif any(x in rule for x in ("telegram", "slack", "discord", "teams")):
+                  category = "messaging credential pattern"
+              elif any(x in rule for x in ("github", "gitlab", "bitbucket")):
+                  category = "source-control credential pattern"
+              elif any(x in rule for x in ("aws", "azure", "gcp", "google", "cloud")):
+                  category = "cloud credential pattern"
+              elif any(x in rule for x in ("openai", "anthropic", "hugging", "cohere")):
+                  category = "AI-provider credential pattern"
+              else:
+                  category = "generic or other credential pattern"
+              buckets[category] += 1
+          for category, count in sorted(buckets.items()):
+              print(f"{category}: {count} finding(s)")
+          PY
+              exit 42 ;;
+
+            *) echo "Scanner failed; no security conclusion."; exit 1 ;;
+          esac
